@@ -1,16 +1,11 @@
 #pragma once
 
-typedef struct Vec2
+typedef struct Vec3
 {
-	float X;
-	float Y;
-} Vec2;
+	float X, Y, Z;
+} Vec3;
 
-typedef struct Object
+typedef struct Matrix4x4
 {
-	Vec2 Center;
-	Vec2 Velocity;
-	float Rad;
-	float Spd;
-	unsigned int Color;
-} Object;
+	float m[4][4];
+} Matrix4x4;
