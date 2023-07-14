@@ -1,6 +1,8 @@
 #define WINDOW_WIDTH 1280 //ウィンドウの幅
 #define WINDOW_HEIGHT 720 //ウィンドウの高さ
+
 #include <Novice.h>
+#include "MyMatrix.h"
 
 const char kWindowTitle[] = "GC2C_07_サカイレイ";
 
