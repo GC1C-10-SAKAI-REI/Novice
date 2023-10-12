@@ -1,10 +1,9 @@
-#define WINDOW_WIDTH 1280 //ウィンドウの幅
-#define WINDOW_HEIGHT 720 //ウィンドウの高さ
+#define WINDOW_WIDTH 1280
+#define WINDOW_HEIGHT 720
 #include <Novice.h>
 
 const char kWindowTitle[] = "GC2C_07_サカイレイ";
 
-// Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
 	// ライブラリの初期化
@@ -36,7 +35,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 		
 
 		
-		/// ↑描画処理ここまで		
+		/// ↑描画処理ここまで
 
 		// フレームの終了
 		Novice::EndFrame();

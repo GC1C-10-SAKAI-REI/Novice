@@ -14,11 +14,8 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソースファイル">
-      <UniqueIdentifier>{d43ba786-314c-4e1c-b4aa-e8e1cf7f4fed}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ヘッダーファイル">
-      <UniqueIdentifier>{e0a27e89-047a-451e-82ea-97f9c70df760}</UniqueIdentifier>
+      <UniqueIdentifier>{91793296-5bea-484f-ac0c-6071aba341cd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -34,17 +31,15 @@
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\WinApp.cpp">
       <Filter>KamataEngine\Source</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
       <Filter>KamataEngine\Adapter</Filter>
     </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
       <Filter>KamataEngine\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>ソースファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp">
-      <Filter>ソースファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -123,13 +118,10 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector2.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
-    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector4.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector3.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
-    <ClInclude Include="Struct.h">
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector4.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
   </ItemGroup>
